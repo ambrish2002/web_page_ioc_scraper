@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<ThreatFeed>
+  <IOC id="0">
+    <ipv4>164.29.7.190</ipv4>
+    <ipv6>8cd0:7d62:7248:4771:347a:2c83:d806:1045</ipv6>
+    <domain>malicious0.example.com</domain>
+    <url>http://malicious0.example.com/payload0.exe</url>
+    <md5>3b8faa1837f8a88b17fc695a07a0ca6e</md5>
+    <sha256>b38a088ca65ed389b74d0fb132e706298fadc1a606cb0fb39a1de644815ef6d1</sha256>
+  </IOC>
+  <IOC id="1">
+    <ipv4>140.108.57.115</ipv4>
+    <ipv6>8e6f:353:51be:d860:ae35:8e45:4f9b:6e3d</ipv6>
+    <domain>evil1.example.com</domain>
+    <url>http://evil1.example.com/install1.dll</url>
+    <md5>1a2a73ed562b0f79c37459eef50bea63</md5>
+    <sha256>43b7a3a69a8dca03580d7b71d8f564135be6128e18c267976142ea7d17be3111</sha256>
+  </IOC>
+  <IOC id="2">
+    <ipv4>207.12.187.118</ipv4>
+    <ipv6>3fe9:c1cf:2858:961b:b928:6273:239c:1776</ipv6>
+    <domain>threat2.example.com</domain>
+    <url>http://threat2.example.com/update2.ps1</url>
+    <md5>4a15544dc5e7ce8a3a578a8ea9488d99</md5>
+    <sha256>47294739614ff3d719db3ad0ddd1dfb23b982ef8daf61a26146d3f31fc377a4c</sha256>
+  </IOC>
+  <IOC id="3">
+    <ipv4>117.163.214.94</ipv4>
+    <ipv6>5347:bd88:b5e6:6b44:88b1:248e:579f:7d57</ipv6>
+    <domain>attack3.example.com</domain>
+    <url>http://attack3.example.com/patch3.bat</url>
+    <md5>451b4cf36123fdf77656af7229d4beef</md5>
+    <sha256>5304317faf42e12f3838b3268e944239b02b61c4a3d70628ece66fa2fd5166e6</sha256>
+  </IOC>
+</ThreatFeed>

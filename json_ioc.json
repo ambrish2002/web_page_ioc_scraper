@@ -1,0 +1,54 @@
+{
+  "threat_feed": [
+    {
+      "id": 0,
+      "ipv4": "164.29.7.190",
+      "ipv6": "8cd0:7d62:7248:4771:347a:2c83:d806:1045",
+      "domain": "malicious0.example.com",
+      "url": "http://malicious0.example.com/payload0.exe",
+      "md5": "3b8faa1837f8a88b17fc695a07a0ca6e",
+      "sha256": "b38a088ca65ed389b74d0fb132e706298fadc1a606cb0fb39a1de644815ef6d1"
+    },
+    {
+      "id": 1,
+      "network": {
+        "ipv4": "140.108.57.115",
+        "ipv6": "8e6f:353:51be:d860:ae35:8e45:4f9b:6e3d"
+      },
+      "host": {
+        "domain": "evil1.example.com",
+        "url": "http://evil1.example.com/install1.dll"
+      },
+      "hashes": {
+        "md5": "1a2a73ed562b0f79c37459eef50bea63",
+        "sha256": "43b7a3a69a8dca03580d7b71d8f564135be6128e18c267976142ea7d17be3111"
+      }
+    },
+    {
+      "id": 2,
+      "indicator": {
+        "network": {
+          "addresses": {
+            "ipv4": "207.12.187.118",
+            "ipv6": "3fe9:c1cf:2858:961b:b928:6273:239c:1776"
+          },
+          "host": {
+            "domain": "threat2.example.com",
+            "url": "http://threat2.example.com/update2.ps1"
+          }
+        },
+        "hashes": {
+          "families": {
+            "md5": "4a15544dc5e7ce8a3a578a8ea9488d99",
+            "sha256": "47294739614ff3d719db3ad0ddd1dfb23b982ef8daf61a26146d3f31fc377a4c"
+          }
+        }
+      },
+      "metadata": {
+        "labels": [
+          "auto-transformed"
+        ]
+      }
+    }
+  ]
+}
